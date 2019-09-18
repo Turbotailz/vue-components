@@ -1,0 +1,19 @@
+{
+  "name": "@turbotailz/vue-components",
+  "version": "1.0.0",
+  "description": "Just messing around with npm stuff",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Turbotailz/vue-components.git"
+  },
+  "author": "Sam Goodger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Turbotailz/vue-components/issues"
+  },
+  "homepage": "https://github.com/Turbotailz/vue-components#readme"
+}
