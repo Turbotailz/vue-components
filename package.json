@@ -1,6 +1,6 @@
 {
   "name": "@turbotailz/vue-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Just messing around with npm stuff",
   "main": "components/index.js",
   "scripts": {
