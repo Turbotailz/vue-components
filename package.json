@@ -1,19 +1,33 @@
 {
   "name": "@turbotailz/vue-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Just messing around with npm stuff",
-  "main": "src/index.js",
+  "main": "components/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Turbotailz/vue-components.git"
   },
-  "author": "Sam Goodger",
+  "author": "Sam Goodger <sam@goodger.nz> (https://sam.goodger.nz)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Turbotailz/vue-components/issues"
   },
-  "homepage": "https://github.com/Turbotailz/vue-components#readme"
+  "homepage": "https://github.com/Turbotailz/vue-components#readme",
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "gsap": "^2.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
 }
